@@ -5,7 +5,7 @@ Re-define the extension of all files in the folder as .js
 
 import os 
 
-path = 'C:/Users/Tree Ant Full/Documents/Programming Learn/freecodecamp'
+path = str(input('The path of your folder: '))
 
 os.chdir(path)
 
