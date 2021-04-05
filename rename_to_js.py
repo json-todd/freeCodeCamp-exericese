@@ -6,6 +6,7 @@ Re-define the extension of all files in the folder as .js
 import os 
 
 path = str(input('The path of your folder: '))
+path = path.replace('\','/')
 
 os.chdir(path)
 
