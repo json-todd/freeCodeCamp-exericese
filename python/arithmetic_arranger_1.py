@@ -1,4 +1,5 @@
 def arithmetic_arranger(problem):
+  # Ver 1: Explore the logic for the correct display of a single arithmetic
   
   # split the arithmatic based on space
   # there will be the first number, the operator, the second number
