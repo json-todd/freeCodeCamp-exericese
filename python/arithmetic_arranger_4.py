@@ -33,12 +33,9 @@ def arithmetic_arranger(problem, answer = False):
                 if len(num_1) > 4 or len(num_2) > 4:
                     return "Error: Numbers cannot be more than four digits."
 
-            if checkRule2():
-                return checkRule2()
-            if checkRule3():
-                return checkRule3()
-            if checkRule4():
-                return checkRule4() 
+            for error in [checkRule2(), checkRule3(), checkRule4()]:
+                if error:
+                    return error
 
         if checkMoreRules():
             return checkMoreRules()
