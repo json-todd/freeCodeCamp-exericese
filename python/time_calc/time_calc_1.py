@@ -22,3 +22,5 @@ def add_time(start_time, duration, start_day = False):
     if new_time[1] >= 60:
         new_time[0] += 1
         new_time[1] -= 60
+        
+    return ":".join(new_time)
