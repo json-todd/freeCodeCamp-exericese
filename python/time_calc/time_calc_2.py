@@ -3,9 +3,8 @@ def add_time(start_time, duration, start_day = False):
     
     # data structures
     new_time = [] # [HH,MM]
-    new_time_day_night = start_time_format[1] # AM/PM
-    
     start_time_format = start_time.split(" ") # [time, AM/PM]
+    new_time_day_night = start_time_format[1] # AM/PM
     
     def getTimeAndHour(time):
         """ Receive input as time format HH:MM
