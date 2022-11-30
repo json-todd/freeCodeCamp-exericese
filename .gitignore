@@ -1,0 +1,8 @@
+# REPLIT FILES
+.replit
+replit.nix
+.bundle
+
+# Packager files
+Gemfile
+Gemfile.lock
